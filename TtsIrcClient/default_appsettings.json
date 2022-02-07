@@ -1,0 +1,23 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning",
+      "Microsoft": "Warning"
+    }
+  },
+  "TwitchIrcHub": {
+    "AppIdKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "HubRootUri": "http://localhost:4720"
+  },
+  "ConnectionStrings": {
+    "TtsDb": "server=/root/mysqld.sock;protocol=unix;database=XXXX;user=XXXX;password=XXXX"
+  },
+  "DiscordWebhooks": {
+    "Main": "000000000000000000/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "SpecialUsers": {
+    "BotOwnerUserIds": [],
+    "BotAdminUserIds": []
+  }
+}
